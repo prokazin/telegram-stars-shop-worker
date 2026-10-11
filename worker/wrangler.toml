@@ -1,0 +1,13 @@
+name = "telegram-stars-shop"
+main = "src/index.js"
+compatibility_date = "2026-01-01"
+nodejs_compat = true
+
+[vars]
+DIGISELLER_SELLER_ID = "ВАШ_SELLER_ID"
+SUPPLIER_MARKUP_PERCENT = "20"
+WEBAPP_URL = "https://ВАШ-ПРОЕКТ.pages.dev"
+
+# Секреты задаются через: npx wrangler secret put ИМЯ_СЕКРЕТА
+# TELEGRAM_BOT_TOKEN
+# DIGISELLER_API_KEY
