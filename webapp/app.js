@@ -2,7 +2,7 @@
 // Digital Stars Shop — Frontend
 // ============================================================
 
-const API_BASE = 'https://telegram-stars-shop.nazar-bronnikov22.workers.dev';
+const API_BASE = 'const API_BASE = 'https://telegram-stars-shop-worker.nazar-bronnikov22.workers.dev';
 
 const tg = window.Telegram?.WebApp;
 if (tg) {
