@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#1a1a2e" />
+  <title>Digital Stars Shop</title>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+    <header class="header glass">
+      <h1>🛍 Digital Stars Shop</h1>
+      <p class="subtitle">Цифровые товары за Telegram Stars</p>
+    </header>
+
+    <div id="loader" class="loader">
+      <div class="spinner"></div>
+      <p>Загружаем товары...</p>
+    </div>
+
+    <main id="catalog" class="catalog hidden"></main>
+    <div id="toast" class="toast hidden"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
